@@ -1,0 +1,196 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Jihan's Website</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  padding: 17px;
+  background-image: url("bg8.JPEG");
+
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: ;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: transparent;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg1 {
+  background-color: darkgrey; 
+  width: 100%;
+  padding: 20px;
+}
+.fakeimg2 {
+  background-color: grey; 
+  width: 100%;
+  padding: 20px;
+}
+.fakeimg3 {
+  background-color: white; 
+  width: 100%;
+  padding: 20px;
+ }
+/* Add a card effect for articles */
+.card {
+  background-color: transparent;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: transparent;
+  margin-top: 20px;
+}
+
+.topnav input[type=text] {
+  float: right;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+
+<body background="bg8.JPEG">
+<div class="header">
+  <h1 style="font-family:Tangerine;border: 2px solid Blue;">My Website</h1>
+  <p>Welcome to My Website, and Enjoy !</p>
+</div>
+
+<div class="topnav">
+  <a href="#">HOME</a>
+  <a href="#">CONTACT</a>
+  <a href="#">GALLERY</a>
+  <a href="http://localhost/sistem-login/public/">LOGOUT</a>
+  <a href="#" style="float:right"> <input type="text" placeholder="Search.."></a>
+  
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>PLAOSAN TEMPLE</h2>
+      <h5>pic by me, June 15, 2020</h5>
+         <img src="temple1.JPEG" alt="pic" style="width:40%">
+      <p>Plaosan Temple(Candi Plaosan)</p>
+      <p>Candi Plaosan, also known as the 'Plaosan Complex', is one of the Buddhist temples located in Bugisan village, Prambanan district, Klaten Regency, Central Java, Indonesia, about 1 kilometre (2⁄3 mile) to the northeast of the renowned Hindu Prambanan Temple.
+
+	   <p>Candi Plaosan covers an area of 2,000 square metres (22,000 square feet) with an elevation of 148 metres (486 feet) above sea level. The Dengok River is located nearby, about 200 metres (220 yards) away. Candi Plaosan is surrounded by paddy fields along with vegetation such as banana and corn. .</p>
+    </div>
+    <div class="card">
+      <h2>JUNGWOOK BEACH</h2>
+      <h5>pic by me, May 11, 2019</h5>
+       <img src="jungwok.JPEG" alt="pic" style="width:40%">
+      <p>Jungwook Beach(Pantai Jungwook)</p>
+      <p>Jungwok Beach is a beach located in Jepitu Village, Girisubo District, Gunungkidul Regency, Special Region of Yogyakarta. Jungwok Beach is one of the beaches that has a beautiful panorama with white sand that is typical of the beach at Gunung Kidul. Jungwok Beach is located east of Wediombo Beach and west of Ngusalan Beach.
+      <p> The distance of Jungwok Beach from Wonosari City is around 40 km. Access road to Jungwook Beach is still quite difficult, it causes the road that has not been paved. Jungwok beach is often a tourist destination because it is a comfortable place for camping.</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About Me</h2>
+       <img src="mypoto.JPEG" alt="pic" style="width:50%">
+      <p>Hello Guys ! My name is Jihan Vera Pramayda. You can call me Jihan. I am a college student. 
+      I really like travelling. 
+     <p> And this blog contains information on amazing places that i visited in Yogyakarta. I hope you can enjoy it.</p>
+    </div>
+    <div class="card">
+      <h3>Popular Post</h3>
+      <div class="fakeimg3"><p><a href="#">BARON BEACH</a></p></div>
+      <div class="fakeimg1"><p><a href="#">BOROBUDUR TEMPLE</a></p></div>
+      <div class="fakeimg2"><p><a href="#">HEHA SKY VIEW</p></div></a>
+    </div>
+    <div class="card">
+      <h3>Follow Me</h3>
+      <p>My Instagram : @jihanvra </p>
+      <p>My Facebook  : @Jihan Vera Pramayda</p>
+      <p>My Twitter   : @jihanveraa</p>
+   
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h5>copyright &copy; Jihan Vera 2020 </h5>
+</div>
+
+</body>
+</html>
+
+ 
